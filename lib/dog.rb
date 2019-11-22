@@ -1,6 +1,10 @@
 class Dog
-attr_accessor this_dogs_name
-  def bark
-    puts  "Woof!"
+
+  def name=(name)
+    @name = name
+  end
+
+  def name
+    puts @name
   end
 end
